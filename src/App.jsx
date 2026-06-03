@@ -1,16 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Card from "./Components/Card";
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-
-
-
-export default defineConfig({
-  plugins: [react()],
-  base: '/gallery/',
-})
 
 const App = () => {
   const [data, setData] = useState([]);
